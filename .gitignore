@@ -1,0 +1,5 @@
+.update
+/.git.bitbucket/
+/.git.gitlab/
+.gitlab_config
+.bitbucket_config
