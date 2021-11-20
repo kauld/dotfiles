@@ -6,5 +6,5 @@
 #}
     git add .
     git commit -m "Update" 
-    #git push --all 
-    git push --force --mirror
+    git push --all 
+    #git push --force --mirror
