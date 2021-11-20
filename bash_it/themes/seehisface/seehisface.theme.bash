@@ -43,6 +43,9 @@ my_ve(){
 }
 
 function prompt_command() {
+    #set tab title
+    PROMPT_COMMAND='echo -en "\033]0;$(hostname)\a"'
+
     if [ -n "$VIRTUAL_ENV" ]
     then
         ve=`basename "$VIRTUAL_ENV"`;
@@ -54,5 +57,5 @@ function prompt_command() {
         PS1="$(is_vim_shell)[$(clock_prompt)]$(my_ve)${yellow}[${cyan}\u@\h$(is_ssh_shell) ${green}\w${yellow}]${red}$(__git_ps1 "(%s)")${normal}\\$ "
     fi
 }
-
-safe_append_prompt_command prompt_command
+#safe_append_prompt_command prompt_command
+prompt_command
