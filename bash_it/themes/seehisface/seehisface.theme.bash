@@ -49,9 +49,9 @@ function prompt_command() {
     fi
 
     if [[ ${EUID} == 0 ]] ; then
-        PS1="\[\e]0;\h\a\]$(is_vim_shell)[$(clock_prompt)]$(my_ve)${yellow}[${red}\u@\h$(is_ssh_shell) ${green}\w${yellow}]${red}$(__git_ps1 "(%s)")${normal}\\$ "
+        PS1="\[\e]0;\h\a\]┌─$(is_vim_shell)[$(clock_prompt)]$(my_ve)${yellow}[${red}\u@\h$(is_ssh_shell) ${green}\w${yellow}]${red}$(__git_ps1 "(%s)")${normal}\\n└─▪ "
     else
-        PS1="\[\e]0;\h\a\]$(is_vim_shell)[$(clock_prompt)]$(my_ve)${yellow}[${cyan}\u@\h$(is_ssh_shell) ${green}\w${yellow}]${red}$(__git_ps1 "(%s)")${normal}\\$ "
+        PS1="\[\e]0;\h\a\]┌─$(is_vim_shell)[$(clock_prompt)]$(my_ve)${yellow}[${cyan}\u@\h$(is_ssh_shell) ${green}\w${yellow}]${red}$(__git_ps1 "(%s)")${normal}\\n└─▪ "
     fi
 }
 

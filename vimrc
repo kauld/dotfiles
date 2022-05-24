@@ -77,11 +77,11 @@ nnoremap - ddp
 nnoremap <space> za
 "Term sends Ctrl-Space as Null represented by C-@ in vim
 noremap <C-@> zM
-"set foldenable             "Allow nested folding
-"set foldlevelstart=1        "Most folds open (up to 99 for all)
-"set foldnestmax=10 
-"set foldmethod=indent
-"set foldcolumn=1
+set foldenable             "Allow nested folding
+set foldlevelstart=1        "Most folds open (up to 99 for all)
+set foldnestmax=10 
+set foldmethod=indent
+set foldcolumn=1
 
 ""allow indent plus manual fold method
 "augroup vimrc
