@@ -1,0 +1,84 @@
+apm                   [ ]     apm completion
+awless                [ ]     
+awscli                [ ]     
+bash-it               [ ]     
+brew                  [ ]     brew completion
+bundler               [ ]     
+capistrano            [ ]     
+cargo                 [ ]     
+composer              [ ]     composer completion
+conda                 [ ]     conda completion
+consul                [ ]     Hashicorp consul completion
+crystal               [ ]     
+dart                  [ ]     
+defaults              [ ]     
+dirs                  [ ]     
+django                [ ]     django completion
+dmidecode             [ ]     
+docker                [ ]     docker completion
+docker-compose        [ ]     
+docker-machine        [ ]     
+drush                 [ ]     
+export                [ ]     
+fabric                [ ]     
+flutter               [ ]     
+gcloud                [ ]     Google Cloud SDK completion
+gem                   [ ]     gem completion
+git                   [ ]     
+git_flow_avh          [ ]     
+git_flow              [ ]     
+github-cli            [ ]     GitHub CLI completion
+go                    [ ]     completion for go command using gocomplete
+gradle                [ ]     
+grunt                 [ ]     
+gulp                  [ ]     
+helm                  [ ]     helm (Kubernetes Package Manager) completion
+homesick              [ ]     
+hub                   [ ]     
+invoke                [ ]     
+jboss5                [ ]     jboss5 completion
+jboss7                [ ]     jboss7 completion
+jungle                [ ]     jungle(AWS cli tool) completion
+kind                  [ ]     
+knife                 [ ]     
+kontena               [ ]     
+kubectl               [ ]     kubectl (Kubernetes CLI) completion
+laravel               [ ]     
+lerna                 [ ]     lerna(javascript project manager tool) completion
+makefile              [ ]     
+maven                 [ ]     
+minikube              [ ]     
+minishift             [ ]     
+ng                    [ ]     
+ngrok                 [ ]     
+notify-send           [ ]     
+npm                   [ ]     npm (Node Package Manager) completion
+nvm                   [ ]     
+openshift             [ ]     
+packer                [ ]     packer completion
+pew                   [ ]     
+pip3                  [ ]     
+pip                   [ ]     
+pipenv                [ ]     
+pipx                  [ ]     
+projects              [ ]     
+rake                  [ ]     
+rustup                [ ]     
+rvm                   [ ]     
+salt                  [ ]     
+sdkman                [ ]     
+sqlmap                [ ]     
+ssh                   [ ]     
+svn                   [ ]     
+system                [ ]     
+terraform             [ ]     
+test_kitchen          [ ]     
+tmux                  [ ]     
+todo                  [ ]     
+travis                [ ]     
+vagrant               [ ]     
+vault                 [ ]     vault completion
+virsh                 [ ]     
+virtualbox            [ ]     
+vuejs                 [ ]     
+wpscan                [ ]     
